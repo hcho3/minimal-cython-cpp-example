@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include <hello/hello.hpp>
 
 void hello(const char* name) {
