@@ -14,12 +14,18 @@ cd python/
 python setup.py build_ext --inplace
 python setup.py install
 ```
-3. In a Python shell, try running
+3. In a Python shell, try calling functions `example()`, `run()`, and `multiply()`:
 ```
 In [1]: import hello
 
-In [2]: hello.run()
-
+In [2]: hello.example()
 Hello, Philip Cho!
 Hello, John Doe!
+
+In [3]: hello.run()
+Hello, Philip Cho!
+Hello, John Doe!
+
+In [4]: hello.multiply(2, -3)
+Out[4]: -6
 ```

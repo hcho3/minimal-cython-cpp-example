@@ -15,3 +15,6 @@ def example():
     hello(s.encode('utf-8'))
     cdef string new_name = concat('John '.encode('utf-8'), 'Doe'.encode('utf-8'))
     hello(new_name.c_str())
+
+def multiply_python(a, b):
+    return multiply(a, b)
